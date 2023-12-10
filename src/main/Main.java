@@ -16,7 +16,10 @@ public class Main {
 		window.setResizable(false);
 		window.setLocationRelativeTo(null);
 		window.setVisible(true);
+		
+		gp.launchGame();
 
 	}
+
 
 }
