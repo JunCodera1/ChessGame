@@ -13,5 +13,9 @@ public class King extends Piece {
 			image = getImage("/pieces/b-king");
 		}
 	}
+	
+	public boolean canMove(int targetCol, int targetRow) {
+		return false;
+	}
 
 }
